@@ -92,7 +92,7 @@ You are required to have the following installed in order to run successfully.
 1.  You could still type words in the **producer-terminal**. \
     Take note that your **consumer-terminal** should print the message which you have type inside your **producer-terminal**.
 
-1.  Let stop our producer by running **"Ctrl + C"**.
+1.  Let stop our producer by running **"Ctrl + C"** in the **producer-terminal**.
 
 1.  Run **"kafka-topics<span/>.sh --bootstrap-server brokerX:9092 --describe --topic first-topic"** in the setup portion, you should see the leader broker has been changed.
 
